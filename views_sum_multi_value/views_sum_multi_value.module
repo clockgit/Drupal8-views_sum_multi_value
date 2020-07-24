@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains views_sum_multi_value.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function views_sum_multi_value_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the views_sum_multi_value module.
+    case 'help.page.views_sum_multi_value':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

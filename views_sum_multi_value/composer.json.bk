@@ -1,0 +1,13 @@
+{
+    "name": "views_sum_multi_value",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/views_sum_multi_value",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/views_sum_multi_value",
+        "source": "http://cgit.drupalcode.org/views_sum_multi_value",
+    },
+}
